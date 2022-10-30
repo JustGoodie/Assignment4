@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block body %}
+  <div class="row">
+    <div class="col-sm-6 col-md-5 col-lg-6">Game:</div>
+    <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">{{Game[0]}}</div>
+  </div><br>
+  <div class="row">
+    <div class="col-sm-6 col-md-5 col-lg-6">CPU:</div>
+    <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">{{Game[1]}}</div>
+  </div><br>
+  <div class="row">
+    <div class="col-sm-6 col-md-5 col-lg-6">RAM:</div>
+    <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">{{Game[2]}}</div>
+  </div><br>
+  <div class="row">
+    <div class="col-sm-6 col-md-5 col-lg-6">GPU:</div>
+    <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">{{Game[3]}}</div>
+  </div><br>
+  <div class="row">
+    <div class="col-sm-6 col-md-5 col-lg-6">DirectX:</div>
+    <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">{{Game[4]}}</div>
+  </div><br>
+  <div class="row">
+    <div class="col-sm-6 col-md-5 col-lg-6">OS:</div>
+    <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">{{Game[5]}}</div>
+  </div><br>
+  <div class="row">
+    <div class="col-sm-6 col-md-5 col-lg-6">Storage empty space:</div>
+    <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">{{Game[6]}}</div>
+  </div><br>
+  <div class="row">
+    <div class="col-sm-6 col-md-5 col-lg-6">Network:</div>
+    <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">{{Game[7]}}</div>
+  </div><br><br>
+  <a href="{{url_for('index')}}" class="text-decoration-none">
+    <button class="btn btn-danger btn-block">
+      Back to Main
+    </button>
+  </a>
+
+{% endblock %}
