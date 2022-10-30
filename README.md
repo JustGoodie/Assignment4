@@ -20,6 +20,6 @@ axios.request(options).then(function (response) { console.log(response.data); })
 
 Examples for use: Run main.py. Click localhost in terminal, and and the program will open your browser. You need to type name of the game and choose recommended or minimal requirements and then click "Search". After clicking on the site, information about your relevant requirements that you have chosen earlier will be displayed.
 
-image
+![image](https://user-images.githubusercontent.com/92390698/198902378-f16e7dd4-943e-4c04-94d6-1ccbf650a90b.png)
 
-image
+![image](https://user-images.githubusercontent.com/92390698/198902384-f9bb35e0-9a76-4817-b4dc-096dc9ff5ffa.png)
