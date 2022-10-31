@@ -18,7 +18,7 @@ The program itself runs in Python. Connecting to a Postgres database (Pg admin4)
 ### In PgAdmin4:
 1. Open the PostgreSQL 13 and CREATE NEW DATABASE and CALL IT "PyProject_db"".
 2. Open the PyProject_db database >>> Schemas >>> Tables >> right mouse button and click Query Tool >>> Query Editor.
-3. Paste it: 
+3. Paste following: 
 
 CREATE TABLE recommended (ID SERIAL PRIMARY KEY not NULL, G_NAME TEXT , CPU VARCHAR(600), RAM VARCHAR(600), GPU VARCHAR(600), DX VARCHAR(600), OS VARCHAR(600), Store VARCHAR(600))
 
